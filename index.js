@@ -12,7 +12,7 @@ app.get("/api", (req, res) => {
   const weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   const currentDay = weekdays[new Date().getDay()];
   const utc_time = new Date();
-  const github_file_url = "https://github.com/benjaminnkem/hngx-backend-task-1/blob/master/app.js";
+  const github_file_url = "https://github.com/benjaminnkem/hngx-backend-task-1/blob/master/index.js";
   const github_repo_url = "https://github.com/benjaminnkem/hngx-backend-task-1";
 
   res.status(200).json({
